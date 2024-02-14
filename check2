@@ -1,0 +1,3 @@
+for i in {1..449};
+do docker tag <imageid> qualysdockerhub/jan_test1:ProdImage$i;
+done;
